@@ -1,0 +1,60 @@
+.App{
+    .sidebar{
+        width: 16% ;
+        height: 100vh;
+        background-color: #191D2B;
+        position: fixed;
+        z-index: 11;
+        border-right: 1px solid #2e344e;
+        transform-origin: left;
+        @media screen and (max-width: 1000px){
+            transition: all .4s ease-in-out;
+            transform: translateX(-100%); 
+            width: 30%;           
+        }
+        @media screen and (max-width: 411px){
+            width: 45%;           
+        }
+        
+    }
+    .nav-toggle{
+        @media screen and (max-width: 1000px){
+            transition: all .4s ease-in-out;
+            transform: translateX(0);
+        }
+
+    }
+    .main-content{
+        width: 84%;
+        margin-left: 16%;
+        background-color: #10121B;
+        min-height: 100vh;
+        // background-image:url();
+        display: grid;
+        position: relative;
+        .content{
+           
+            margin: 5rem 15rem;
+            @media  screen and (max-width:1103px) {
+                margin: 2rem 10rem;
+            }
+        }
+        @media screen and (max-width: 1000px){
+            margin-left: 0;
+            width: 100%;
+            position: absolute;
+            
+        }
+       
+    }
+}
+.nav-btn{
+    position: absolute;
+    z-index: 10;
+    top: 2rem;
+    right: 2rem;
+    display: none;
+    @media screen and (max-width:1000px) {
+        display: block;
+    }
+}
