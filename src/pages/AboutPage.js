@@ -2,7 +2,6 @@ import React from 'react'
 import Title from '../components/Title'
 import ImageSection from '../components/ImageSection'
 import SkillSection from '../components/SkillSection'
-import { Card } from '@material-ui/core'
 
 function AboutPage() {
     return (

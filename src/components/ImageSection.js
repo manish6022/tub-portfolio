@@ -1,22 +1,24 @@
 import React from 'react'
-import about from '../images/about.png'
-import {Paper} from '@material-ui/core'
 function ImageSection() {
     const Age = () => {
         var date = new Date();
         var year = date.getFullYear();
-        const YOB = 1992;
+        const YOB = 1996;
         var age = year-YOB
         return age
     }
     return (
         <div className="ImageSection">
-            <div className="img">
+            {/* <div className="img">
                 <img src={about} alt=''/>
-            </div>
+            </div> */}
             <div className="about-info">
                 <h4>I am<span> Manish Kumar</span></h4>
-                <p className="about-text">I am a self-taught web developer with a strong eye for innovative design and a keen understanding of techniques geared toward optimum user experience. To work in an environment where my skill and knowledge reflects the growth of the company and enhance my knowledge as well as experience.
+                <p className="about-text">I am a self-taught web developer with a strong 
+                eye for innovative design and a keen understanding of techniques geared 
+                toward optimum user experience. To work in an environment where my skill 
+                and knowledge reflects the growth of the company and enhance my knowledge 
+                as well as experience.
                 </p>
                     <div className="about-details">
                         <div className="left-section">

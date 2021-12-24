@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import './App.scss';
 import NavBar from './components/NavBar';
 import AboutPage from './pages/AboutPage';
-import BlogsPage from './pages/BlogsPage';
+// import BlogsPage from './pages/BlogsPage';
 import ContactPage from './pages/ContactPage';
 import Home from './pages/Home'
 import PortfoliosPage from './pages/PortfoliosPage';
@@ -40,10 +40,10 @@ const navClick = () => {
              <Route path="/about" exact>
              <AboutPage />
              </Route>
-             {/* <Route path="/portfolios" exact>
+              <Route path="/portfolios" exact>
              <PortfoliosPage />
              </Route>
-             <Route path="/blogs" exact>
+             {/* <Route path="/blogs" exact>
              <BlogsPage />
              </Route> */}
              <Route path="/contact" exact>
