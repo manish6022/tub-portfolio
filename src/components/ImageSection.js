@@ -39,7 +39,7 @@ function ImageSection() {
                         </div>
                     </div>
                     <form target="_blank">
-                    <button  type="submit" className="btn" formAction='https://drive.google.com/file/d/1JBX48zv3nCgL1S9uUJQnJZOGcsjFbunC/view?usp=sharing'>Download CV</button>
+                    <button  type="submit" className="btn" formAction='https://drive.google.com/file/d/1nlJqgbbpydtGBUEcSfyNiS1VgI75--XA/view?usp=sharing'>Download CV</button>
                     </form>
             </div>
         </div>
