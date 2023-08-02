@@ -9,7 +9,7 @@
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -17,11 +17,13 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
     <!--EMOJI CSS -->
-    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet" />
 
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;800&display=swap"
+      rel="stylesheet"
+    />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -46,10 +48,29 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-                            
-<!-- <script type='text/javascript'>
-  (function(I, L, T, i, c, k, s) {if(I.iticks) return;I.iticks = {host:c, settings:s, clientId:k, cdn:L, queue:[]};var h = T.head || T.documentElement;var e = T.createElement(i);var l = I.location;e.async = true;e.src = (L||c)+'/client/inject-v2.min.js';h.insertBefore(e, h.firstChild);I.iticks.call = function(a, b) {I.iticks.queue.push([a, b]);};})(window, 'https://cdn.intelliticks.com/prod/common', document, 'script', 'https://app.intelliticks.com', 'EQG4aNaoSnLGYpQKC_c', {});
-</script> -->
-                  
+
+    <script type="text/javascript">
+      (function (I, L, T, i, c, k, s) {
+        if (I.iticks) return;
+        I.iticks = { host: c, settings: s, clientId: k, cdn: L, queue: [] };
+        var h = T.head || T.documentElement;
+        var e = T.createElement(i);
+        var l = I.location;
+        e.async = true;
+        e.src = (L || c) + "/client/inject-v2.min.js";
+        h.insertBefore(e, h.firstChild);
+        I.iticks.call = function (a, b) {
+          I.iticks.queue.push([a, b]);
+        };
+      })(
+        window,
+        "https://cdn.intelliticks.com/prod/common",
+        document,
+        "script",
+        "https://app.intelliticks.com",
+        "EQG4aNaoSnLGYpQKC_c",
+        {}
+      );
+    </script>
   </body>
 </html>
